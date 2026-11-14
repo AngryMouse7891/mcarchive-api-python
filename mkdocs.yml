@@ -1,0 +1,52 @@
+site_name: MCArchive API for Python Docs
+repo_url: https://github.com/AngryMouse7891/mcarchive-api-python
+repo_name: AngryMouse7891/mcarchive-api-python
+site_description: Documentation of the mcarchive_api Python library.
+copyright: Copyright &copy; 2026 红温的鼠鼠7891
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tabs
+  logo: mcarchive_api_docs.png
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder   # 使用文件夹模式
+      reconfigure_material: true    # ✅ 自动设置 theme.language
+      reconfigure_search: true       # ✅ 搜索自动适配多语言分词
+      languages:
+        - locale: zh
+          name: 简体中文
+          build: true
+          default: true
+        - locale: en
+          name: English
+          build: true
+      nav_translations:
+        zh:
+          Home: 首页
+          API Reference: API参考
+  - git-revision-date-localized
+  - git-authors
+  - mkdocstrings:
+      handlers:
+            python:
+              # 告诉插件去哪里找你的包（相对于mkdocs.yml）
+              paths: [src/mcarchive_api]
+              options:
+                show_source: true          # 显示源码链接
+                show_signature_annotations: true # 显示类型注解
+                members_order: "source"    # 按源码顺序 / alphabetical 字母序
+                merge_init_into_class: true # __init__文档合并到类
+
+nav:
+  - Home: index.md
+  - API Reference: api.md
