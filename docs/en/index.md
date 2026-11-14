@@ -49,6 +49,8 @@ from mcarchive_api.default import get_game_versions
 print(f'Game Versions: {get_game_versions()}')
 ```
 
+For more details, check out the [MCArchive API official documentation](https://mcarchive.net/api/v1/).
+
 ## Dependencies
 
 | Package | Latest Version | Description |
