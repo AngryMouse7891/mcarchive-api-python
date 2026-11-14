@@ -1,4 +1,4 @@
-# MCArchive API for Python
+# <p align="center"> MCArchive API for Python <img src="https://gitee.com/AngryMouse7891/mcarchive-api-python/badge/star.svg?theme=dark" alt="star" /> <img src="https://gitee.com/AngryMouse7891/mcarchive-api-python/badge/fork.svg?theme=dark" alt="star" /> <img src="https://img.shields.io/github/stars/AngryMouse7891/mcarchive-api-python" alt="GitHub Stars" /> <img src="https://img.shields.io/github/forks/AngryMouse7891/mcarchive-api-python" alt="GitHub Forks" /> <img src="https://img.shields.io/pypi/v/mcarchive-api" alt="latest"/> </p>
 
 > [!WARNING]
 > 这个库与 MCArchive 没有任何关联。
