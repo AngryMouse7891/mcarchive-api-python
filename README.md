@@ -1,5 +1,8 @@
 # MCArchive API for Python
 
+> [!WARNING]
+> 这个库与 MCArchive 没有任何关联。
+
 ## 简介
 
 这是一个允许开发者与MCArchive API交互的Python库，使用[`httpx`](https://pypi.org/project/httpx/)进行API交互，[`urllib`](https://pypi.org/project/urllib/)库作为变量转URL参数。
