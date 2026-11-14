@@ -55,6 +55,7 @@ print(f'Game Versions: {get_game_versions()}')
 | ------------------------------------------- | ------------------------------------------ | ------------------------- |
 | [`httpx`](https://pypi.org/project/httpx) | ![latest](https://img.shields.io/pypi/v/httpx) | HTTP client |
 | [`urllib3`](https://pypi.org/project/httpx) | ![latest](https://img.shields.io/pypi/v/urllib3) | HTTP library with thread-safe connection pooling, file uploads, and more |
+| [`colorama`](https://pypi.org/project/colorama) | ![latest](https://img.shields.io/pypi/v/colorama) | Colored text output |
 
 ## Open Source License
 

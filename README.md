@@ -55,6 +55,7 @@ print(f'Game Versions: {get_game_versions()}')
 | ------------------------------------------- | ------------------------------------------ | ------------------------- |
 | [`httpx`](https://pypi.org/project/httpx)   | ![latest](https://img.shields.io/pypi/v/httpx)   | HTTP客户端                   |
 | [`urllib3`](https://pypi.org/project/httpx) | ![latest](https://img.shields.io/pypi/v/urllib3) | 带有线程安全连接池、文件上传等功能的 HTTP 库 |
+| [`colorama`](https://pypi.org/project/colorama) | ![latest](https://img.shields.io/pypi/v/colorama) | 彩色文本输出 |
 
 ## 开源许可
 

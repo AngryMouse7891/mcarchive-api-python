@@ -351,9 +351,10 @@ wheels = [
 
 [[package]]
 name = "mcarchive-api"
-version = "0.1.0"
+version = "0.1.1"
 source = { editable = "." }
 dependencies = [
+    { name = "colorama" },
     { name = "httpx" },
     { name = "urllib3" },
 ]
@@ -370,6 +371,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "colorama", specifier = ">=0.4.6" },
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "urllib3", specifier = ">=2.8.0" },
 ]

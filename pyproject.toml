@@ -9,6 +9,7 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "colorama>=0.4.6",
     "httpx>=0.28.1",
     "urllib3>=2.8.0",
 ]
