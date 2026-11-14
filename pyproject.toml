@@ -1,16 +1,22 @@
 [project]
 name = "mcarchive-api"
 version = "0.1.0"
-description = "Add your description here"
+description = "Unofficial livrary to help you consume the MCArchive API"
 readme = "README.md"
 authors = [
     { name = "红温的鼠鼠7891", email = "pystart@qq.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+]
 
 [project.scripts]
 mcarchive-api = "mcarchive_api:main"
+
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+default = true
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
