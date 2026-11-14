@@ -3,6 +3,7 @@ name = "mcarchive-api"
 version = "0.1.0"
 description = "Unofficial library to help you consume the MCArchive API"
 readme = "README.md"
+license = "MIT"
 authors = [
     { name = "红温的鼠鼠7891", email = "pystart@qq.com" }
 ]
@@ -11,6 +12,12 @@ dependencies = [
     "httpx>=0.28.1",
     "urllib3>=2.8.0",
 ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+keywords = ["minecraft", "http", "api", "json"]
 
 [project.scripts]
 mcarchive-api = "mcarchive_api:main"
