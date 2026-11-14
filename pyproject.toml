@@ -1,7 +1,7 @@
 [project]
 name = "mcarchive-api"
 version = "0.1.0"
-description = "Unofficial livrary to help you consume the MCArchive API"
+description = "Unofficial library to help you consume the MCArchive API"
 readme = "README.md"
 authors = [
     { name = "红温的鼠鼠7891", email = "pystart@qq.com" }
