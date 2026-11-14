@@ -19,6 +19,13 @@ classifiers = [
 ]
 keywords = ["minecraft", "http", "api", "json"]
 
+[project.urls]
+Homepage = "https://angrymouse7891.github.io/mcarchive-api-python/"
+Documentation = "https://angrymouse7891.github.io/mcarchive-api-python/en/changelog/"
+Repository = "https://github.com/AngryMouse7891/mcarchive-api-python.git"
+Issues = "https://github.com/AngryMouse7891/mcarchive-api-python/issues"
+Changelog = "https://angrymouse7891.github.io/mcarchive-api-python/en/changelog/"
+
 [project.scripts]
 mcarchive-api = "mcarchive_api:main"
 
